@@ -8,8 +8,8 @@ import java.util.Map;
 
 public interface TermekService {
     void addTermek(Termek termek);
-    Collection<Termek> readAllTermek();
-    Termek readAllTermek(String id);
+    Collection<Termek> getAllTermek();
+    Termek getAllTermek(String id);
     void updateTermek(Termek termek);
     void removeTermek(Termek termek);
     Collection<Termek> readAllTermekOfKategoria(Kategoria kategoria);
