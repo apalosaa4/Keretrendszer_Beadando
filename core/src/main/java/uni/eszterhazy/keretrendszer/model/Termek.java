@@ -1,5 +1,6 @@
 package uni.eszterhazy.keretrendszer.model;
 
+import uni.eszterhazy.keretrendszer.exception.ArNegativ;
 import uni.eszterhazy.keretrendszer.exception.NevNemUres;
 import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
 
@@ -9,9 +10,9 @@ import java.util.UUID;
 public class Termek {
     private String nev;
     private String id;
+    private double ar;
     private LocalDate gyartasinap;
     private Kategoria kategoria;
-    private double ar;
 
 
     public Termek() {
@@ -38,6 +39,17 @@ public class Termek {
     }
 
 
+    public double getAr() {
+        return ar;
+    }
+    public void setAr(double ar) throws ArNegativ {
+        if(ar < 0){
+            throw new ArNegativ(ar);
+        }
+        this.ar = ar;
+    }
+
+
     public LocalDate getGyartasinap() {
         return gyartasinap;
     }
@@ -57,21 +69,14 @@ public class Termek {
     }
 
 
-    public double getAr() {
-        return ar;
-    }
-    public void setAr(double ar) {
-        this.ar = ar;
-    }
-
     @Override
     public String toString() {
         return "Termek{" +
                 "nev='" + nev + '\'' +
                 ", id='" + id + '\'' +
+                ", ar=" + ar +
                 ", gyartasinap=" + gyartasinap +
                 ", kategoria=" + kategoria +
-                ", ar=" + ar +
                 '}';
     }
 }
