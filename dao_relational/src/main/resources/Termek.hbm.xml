@@ -1,0 +1,7 @@
+<hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
+    <class name="uni.eszterhazy.keretrendszer.model.Termek" table="termekek">
+        <id name="id" type="string" column="id"/>
+        <
+    </class>
+
+</hibernate-mapping>
