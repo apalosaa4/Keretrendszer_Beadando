@@ -8,7 +8,7 @@ import java.util.Collection;
 public interface TermekDAO {
     void createTermek(Termek termek);
     Collection<Termek> readAllTermek();
-    Termek readTermek();
+    Termek readTermek(String id);
     void updateTermek(Termek termek);
     void deleteTermek(Termek termek);
     Collection<Termek> readAllTermekOfKategoria(Kategoria kategoria);
