@@ -13,6 +13,7 @@
         <module>serviceimpl</module>
         <module>util</module>
         <module>dao_relational</module>
+        <module>console</module>
     </modules>
 
 
