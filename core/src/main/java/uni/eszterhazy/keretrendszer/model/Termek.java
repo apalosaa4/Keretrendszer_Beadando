@@ -1,5 +1,6 @@
 package uni.eszterhazy.keretrendszer.model;
 
+import org.apache.log4j.Logger;
 import uni.eszterhazy.keretrendszer.exception.ArNegativ;
 import uni.eszterhazy.keretrendszer.exception.NevNemUres;
 import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
@@ -14,9 +15,12 @@ public class Termek {
     private LocalDate gyartasinap;
     private Kategoria kategoria;
 
+    Logger logger = Logger.getLogger(this.getClass());
+
 
     public Termek() {
         this.id= UUID.randomUUID().toString();
+        logger.info("Létre lett hozva egy új termék a/az "+this.id+ " azonosítóval");
     }
 
 
