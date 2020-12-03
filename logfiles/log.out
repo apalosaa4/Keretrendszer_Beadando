@@ -11,3 +11,29 @@
 2020-12-03 16:26:07, ERROR, Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-12-03 19:06:31, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-03 19:06:33, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-03 19:06:34, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-03 19:06:34, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/termekek?severTimezone=UTC]
+2020-12-03 19:06:34, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-03 19:06:34, INFO, HHH10001003: Autocommit mode: false
+2020-12-03 19:06:34, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-03 19:06:38, WARN, HHH000342: Could not obtain connection to query metadata : Cannot invoke "org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.getConnection()" because "this.state" is null
+2020-12-03 19:06:39, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-03 19:06:39, WARN, SQL Error: 0, SQLState: 08S01
+2020-12-03 19:06:39, ERROR, Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-12-03 19:14:15, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-03 19:14:15, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-03 19:14:16, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-03 19:14:16, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost/termekek?severTimezone=UTC]
+2020-12-03 19:14:16, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-03 19:14:16, INFO, HHH10001003: Autocommit mode: false
+2020-12-03 19:14:16, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-03 19:14:20, WARN, HHH000342: Could not obtain connection to query metadata : Cannot invoke "org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl$PoolState.getConnection()" because "this.state" is null
+2020-12-03 19:14:20, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-03 19:14:20, WARN, SQL Error: 0, SQLState: 08S01
+2020-12-03 19:14:20, ERROR, Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
