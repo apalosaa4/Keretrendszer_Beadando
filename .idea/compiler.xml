@@ -10,6 +10,7 @@
         <module name="console" />
         <module name="util" />
         <module name="serviceimpl" />
+        <module name="dao_json" />
         <module name="dao_relational" />
       </profile>
     </annotationProcessing>
