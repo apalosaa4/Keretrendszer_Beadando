@@ -1,5 +1,6 @@
 import uni.eszeterhazy.keretrendszer.dao.json.TermekDAOJSON;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
+import uni.eszterhazy.keretrendszer.dao.mongo.TermekDAOMongo;
 import uni.eszterhazy.keretrendszer.exception.ArNegativ;
 import uni.eszterhazy.keretrendszer.exception.NevNemUres;
 import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
@@ -13,7 +14,8 @@ import java.time.LocalDate;
 
 public class Proba {
     public static void main(String[] args) throws ArNegativ, NevNemUres, RosszGyartasiNap, IOException {
-        TermekDAO dao = new TermekDAOJSON("termekadatok.json");
+        //TermekDAO dao = new TermekDAOJSON("termekadatok.json");
+        TermekDAO dao = new TermekDAOMongo("mongodb://localhost:27018", "termekek","termek");
         TermekService service = new TermekServiceImpl(dao);
 
         Termek termek = new Termek();
