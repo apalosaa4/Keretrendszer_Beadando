@@ -7,15 +7,15 @@ import uni.eszterhazy.keretrendszer.exception.NevNemUres;
 import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
 import uni.eszterhazy.keretrendszer.model.Termek;
+import uni.eszterhazy.keretrendszer.exception.TermekAlreadyAdded;
+import uni.eszterhazy.keretrendszer.exception.TermekNotFound;
 
 import java.time.LocalDate;
-
-import static org.junit.Assert.*;
 
 public class TermekDAORelationalTest {
 
     @Test
-    public void test() throws NevNemUres, ArNegativ, RosszGyartasiNap {
+    public void test() throws NevNemUres, ArNegativ, RosszGyartasiNap, TermekAlreadyAdded, TermekNotFound {
         TermekDAO dao = new TermekDAORelational();
         Termek termek = new Termek();
         termek.setNev("Fehér karfás szék");

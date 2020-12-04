@@ -30,6 +30,12 @@
             <artifactId>util</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <groupId>uni.eszterhazy.keretrendszer</groupId>
+            <artifactId>serviceimpl</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 

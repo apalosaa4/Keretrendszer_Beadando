@@ -2,6 +2,7 @@ package uni.eszterhazy.keretrendszer.service.impl;
 
 import org.apache.log4j.Logger;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
+import uni.eszterhazy.keretrendszer.exception.TermekAlreadyAdded;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
 import uni.eszterhazy.keretrendszer.model.Termek;
 import uni.eszterhazy.keretrendszer.service.TermekService;
@@ -20,7 +21,7 @@ public class TermekServiceImpl implements TermekService {
     }
 
     @Override
-    public void addTermek(Termek termek) {
+    public void addTermek(Termek termek) throws TermekAlreadyAdded {
         dao.createTermek(termek);
     }
 

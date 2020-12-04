@@ -113,3 +113,198 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 923f0458-f00c-4190-a2df-30ffdbcae3f0 azonosítóval
 2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 6f3ce82f-87e5-4ce7-983b-6f5b814ec925 azonosítóval
 2020-12-04 15:16:07, INFO, 5 darab termék van az adatbázisunkban.
+2020-12-04 16:47:34, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 16:47:36, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 16:47:36, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 16:47:37, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 16:47:37, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 16:47:37, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 16:47:37, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 16:47:37, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 16:47:38, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 16:47:38, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 2e795c61-540c-48dc-afa0-f6a663214a5c azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az dc3a4329-36d0-4d93-9d35-f375194e08bb azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az b229e5ab-be86-4863-ad8a-4898015bbc38 azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az a531e893-c867-4a04-93fe-1b41ce39379e azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 2ec8f0bc-7a3f-4843-8b2e-2c602e9fbd39 azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 06526637-675b-478f-9a22-c498c880602b azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 6b4e0458-a435-4d13-9017-6dc8b1bbfdb2 azonosítóval
+2020-12-04 16:47:38, INFO, 6 darab termék van az adatbázisunkban.
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 5bf77853-11c5-4560-8106-b66a98d4737f azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 359a955a-24aa-47da-9277-987c26e8c7aa azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 22242adc-7fb8-4614-a3f1-931ecb2d0a40 azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 69645ee1-21a7-49b2-814c-7a75e362ae0d azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 5f741212-af25-44b7-ba23-4f932cc11a94 azonosítóval
+2020-12-04 16:47:38, WARN, Létre lett hozva egy új termék a/az 1051db8b-1c9e-4c5c-94a4-495d37d16aa8 azonosítóval
+2020-12-04 16:47:38, INFO, 6 darab termék van az adatbázisunkban.
+2020-12-04 19:28:29, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 19:28:30, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 19:28:31, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 19:28:31, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 19:28:31, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 19:28:31, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 19:28:31, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 19:28:31, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 19:28:32, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@79b2852b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 19:28:32, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 19:28:32, WARN, Létre lett hozva egy új termék a/az 0bbdb117-92ac-447c-8b0d-ff4b8ece2b5f azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 1e8f7bee-f2b2-4555-8b89-170fbd9a2a5b azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 08b4cc91-21f9-42e4-a0b7-d58acb27f794 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az cf122ca1-832d-4ae5-b32b-3455bf730087 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az c483c724-ce0f-4a5a-9016-19fdbafac4e4 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 68831c90-55ec-4d38-88a7-a8f7bac3d14f azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 8e99bcdf-5008-41c3-b040-acf97032a2ba azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 553b4e30-a5be-4aee-929f-93903b235a3a azonosítóval
+2020-12-04 19:28:33, INFO, 7 darab termék van az adatbázisunkban.
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az a2efaa22-4f57-4a7e-a030-a56d306866c2 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az a203cd8c-7385-4645-9b28-3018ed8e01f6 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az e5328b42-f06f-4b71-b8de-f8a589e19c09 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az d273ac46-a3bc-47a0-ad0f-c35f92b369e8 azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 0af2a8b4-1d85-4503-b771-4fa011e5f1cd azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az c458ddde-c7a5-49c2-99e6-bd5be215d1fd azonosítóval
+2020-12-04 19:28:33, WARN, Létre lett hozva egy új termék a/az 4e98e181-a82f-46c6-bdcf-012d53d2681a azonosítóval
+2020-12-04 19:28:33, INFO, 7 darab termék van az adatbázisunkban.
+2020-12-04 19:31:47, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 19:31:48, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 19:31:49, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 19:31:49, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 19:31:49, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 19:31:49, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 19:31:49, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 19:31:49, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 19:31:50, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 19:31:50, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az cef048bf-7126-4138-add9-a05529cbe916 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az bcd93c0e-0e67-421c-8d7f-489e2bee26e2 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 8466f677-b728-416b-a1ce-2da5291de29b azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 412246ef-c07a-4e8d-84be-15bb8d8afd20 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 5e6abbd5-03e4-48f0-9381-8b0c6431f03e azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az aea8696b-f2fd-4111-94ff-ef0b0ca027f8 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az f99ecc97-ed7a-43fd-96a2-6b4f44548a92 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 305995c6-5c9c-4072-bf06-d1bf3b60e71e azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az b9dd7b87-03ce-4577-961e-c91f842ee0a4 azonosítóval
+2020-12-04 19:31:50, INFO, 8 darab termék van az adatbázisunkban.
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 6d6805b9-7165-4f3a-862e-29282aa0e3c7 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 3937fe43-bd97-4635-975d-70aabce819d7 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az a31f5bf6-356e-4cc4-86e4-7d57d79a87dc azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 4f163c5d-3671-4d9b-97ba-5a28877eb15a azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 45acc229-1ab8-4b37-8907-ef087c35bbea azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 420af58d-cc23-40af-b207-7578a6e83de4 azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az fa0427f1-cc6f-4126-863e-b36ac741842c azonosítóval
+2020-12-04 19:31:50, WARN, Létre lett hozva egy új termék a/az 5d7d1966-9c1c-4fa3-9a95-b306f8c7fa3c azonosítóval
+2020-12-04 19:31:50, INFO, 8 darab termék van az adatbázisunkban.
+2020-12-04 19:34:18, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 19:34:19, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 19:34:19, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 19:34:19, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 19:34:19, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 19:34:19, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 19:34:19, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 19:34:20, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 19:34:21, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 19:34:21, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 427972a5-39ea-4b3f-9ce2-dcc91347288a azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az e9f8938b-ef86-4e76-b43a-884b9a7d0242 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 23bc3a1c-d7cc-47be-bab6-f53503caf6e5 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az a42f814c-1562-4eb1-ac04-618b1cf4cb88 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az bc3dbce7-c7e6-4bb2-be16-0efa68984716 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az c3a6f674-a34e-4730-9bdc-308cc1885c3c azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 5bfe2864-7b01-4efe-923c-f2403089653c azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 84fa3db7-c739-4bfa-890a-17196132399e azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az af62a52b-893d-4632-a448-2350d678081f azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 790e6da5-5440-46a2-98e1-3d9fb8f74759 azonosítóval
+2020-12-04 19:34:21, INFO, 9 darab termék van az adatbázisunkban.
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 2e3b9b39-5267-49d7-b7e2-b81ccf0a8f45 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 1d23eb76-8e4e-4d90-9ac6-fcea45c2b164 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az deb62342-8ab0-406d-a7a0-ac1efd7ddf7c azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 0164892d-3afe-4344-8856-4e568a748cdc azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az ef16265b-012a-4cf1-a3d8-f3910a9cf496 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az bd7cc0d1-34e9-424f-a525-b38a979365fd azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 63417630-3b34-4b83-b86f-0aa12c3725a2 azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 4da2d8d5-c061-4cdf-8efd-bc43d0db1b0b azonosítóval
+2020-12-04 19:34:21, WARN, Létre lett hozva egy új termék a/az 467a4636-b2d3-4dde-926e-db59845c6ec5 azonosítóval
+2020-12-04 19:34:21, INFO, 9 darab termék van az adatbázisunkban.
+2020-12-04 19:34:29, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 19:34:29, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 19:34:30, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 19:34:30, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 19:34:30, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 19:34:30, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 19:34:30, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 19:34:30, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 19:34:30, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 19:34:31, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 0a6d9b3e-2074-46aa-b7d8-ee559bd51902 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az e08e766d-f667-4749-884a-535366a4377d azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 29fb8dcb-9c2c-437b-9b46-2deb5f79472c azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az b62770de-61fb-41da-acd8-13143ba0f78f azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 11d30a6c-64f9-449e-a07b-099b5ed42178 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az dcaf0d8b-7a72-447a-92f2-7ebe7e5949f2 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 4b18addc-1f11-4803-8d6f-2a782774debd azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az a013b116-9c50-4ace-b88d-408c0010e619 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 316aa8ca-7c6e-4720-9fcf-a19b829efee4 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 3e2d4267-22d0-4570-9ba7-61c96ba241e8 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 9fc91ea0-3219-4982-8e93-71d947e1ef94 azonosítóval
+2020-12-04 19:34:31, INFO, 10 darab termék van az adatbázisunkban.
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 3f440790-5606-4835-a7e6-b6d7ba0b98e6 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az c5c0f229-a68e-4c83-a58f-864ed9f69a33 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 5071da6e-9706-4b28-a8b0-20ecfc252686 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 792eef2a-b6b5-46f7-a35f-839f50bbc5ac azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az ee9d48e2-85f2-4426-b05d-d164a0d91a96 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 4b7788f6-6bfd-4daf-a36a-1ae5568106b6 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 70a93290-1e08-439e-908e-643c5f5ee70e azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az e34fc860-c544-4b14-bb89-5c6b7ba68135 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 2c296681-0d9d-4efc-b42e-61bcd9a0a072 azonosítóval
+2020-12-04 19:34:31, WARN, Létre lett hozva egy új termék a/az 2dac28cb-5f77-4e83-8773-5e4962163620 azonosítóval
+2020-12-04 19:34:31, INFO, 10 darab termék van az adatbázisunkban.
+2020-12-04 19:38:26, WARN, Létre lett hozva egy új termék a/az 40b8a56e-84ff-4161-b880-c8c3b4c1609e azonosítóval
+2020-12-04 19:41:48, WARN, Létre lett hozva egy új termék a/az 65d0f7dc-0e43-468f-a07a-24c4246ed981 azonosítóval
+2020-12-04 19:41:48, WARN, Létre lett hozva egy új termék a/az cc7f457e-e268-44c7-9c4c-0e6034915345 azonosítóval
+2020-12-04 19:41:48, WARN, Létre lett hozva egy új termék a/az 0634e8c3-5ed5-4b49-8da6-e67d50d30700 azonosítóval
+2020-12-04 19:42:07, WARN, Létre lett hozva egy új termék a/az 9a67bfaa-a420-407a-87d5-e198e5636705 azonosítóval
+2020-12-04 19:42:07, WARN, Létre lett hozva egy új termék a/az 555237b3-e0fb-4cce-a2a0-af7aa12b7c62 azonosítóval
+2020-12-04 19:42:07, WARN, Létre lett hozva egy új termék a/az 58aee619-b6eb-4635-9076-f74ceeea38e3 azonosítóval
+2020-12-04 19:42:07, WARN, Létre lett hozva egy új termék a/az cbe682b8-328c-4333-b42e-e60ccd30ee8b azonosítóval
+2020-12-04 19:42:07, WARN, Létre lett hozva egy új termék a/az 8aca6920-1c28-4e7a-92f5-52b1ef0cb01c azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az 29fcf989-886e-4a77-b261-e60ffcec348e azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az a4ec6817-a56c-4e4e-a91c-f6f01d9961c1 azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az 9f199b5a-786e-42ae-be84-5168f3ea305e azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az d92f8f32-f93d-4ddd-ad2c-a241e18f94c6 azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az 05c25afd-1aec-4020-81b9-6bb0aeb3d97c azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az c0c97473-2845-4693-ba4f-4f286205c101 azonosítóval
+2020-12-04 19:42:11, WARN, Létre lett hozva egy új termék a/az ec30da00-f1a1-498c-b3c5-109eb85ce42e azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az 8a5bcb04-9887-4251-93c9-f97497cfbc5b azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az f948e79c-f413-4016-9bc1-e756f686cb62 azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az 6938efa4-a609-42b7-9a49-34d14bda86ec azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az c8bcf7e9-6f7b-4f38-bcb4-03e8aa236e2d azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az ca1f9de6-17dd-4afa-aba3-eae23549dbc4 azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az b73e7520-2b9d-4bf0-8361-be7110794580 azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az f3aa48b8-5af2-4299-a409-e6abb5eefd83 azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az ea68ff4d-55e2-4e6f-8180-b0408a657513 azonosítóval
+2020-12-04 19:43:37, WARN, Létre lett hozva egy új termék a/az 040735ea-6a94-4add-83e4-2cd5b9e8a99d azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az ce045ca4-e2a4-499d-99e9-15826f053fa5 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az c7c321b6-8850-4aa3-a557-88ec3db2e7c0 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 3ab5d365-c508-405d-919c-16959d2fe30b azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 1fae6708-565e-4b77-be8d-a3e41dac5d59 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 467b91c0-21ce-4ff5-9b81-171984aac116 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az b7987b8a-a173-449d-999e-67e908714922 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 3f3ea527-41d3-4621-8f55-ac6557227edb azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 7cca8525-8a89-41eb-8ae0-51a643017b6d azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az e45cf581-b491-42d7-8b5a-f8aac36c403f azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 97ab9935-be38-41af-9aa4-cdae7d8ba0c1 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 25203b81-061d-4d7d-bdb7-13e26b402ba8 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az a5495e02-f385-4bd9-9273-163dcdf26ed1 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 662d53e8-b6f6-49f6-9914-69dc1b0adb10 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 65b503a2-9fcd-482e-bd2a-f0a8cb76f919 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az de217016-4ba5-4537-a4f2-abbac7774190 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az bd6d32f5-13e8-48bc-b61f-c5500f4db33e azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 0317284d-5915-4cfa-b73e-8fa8d7e2f8fe azonosítóval
+2020-12-04 19:46:38, INFO, 6 darab termék van az adatbázisunkban.
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az fe1620b0-dda2-463b-8ba0-fd9e1350a7e1 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 615f0458-4c50-43be-9cba-9530ee6c9659 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 52266a94-1e14-4076-bb24-1f336c75b07f azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az ade805d5-13ee-4ba6-99d1-b0930f7b109e azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az 88130eb4-6ff5-4e15-a586-303d1c03be40 azonosítóval
+2020-12-04 19:46:38, WARN, Létre lett hozva egy új termék a/az fc416a01-1505-4d9c-b026-b5b1215840b4 azonosítóval
+2020-12-04 19:46:38, INFO, 6 darab termék van az adatbázisunkban.
