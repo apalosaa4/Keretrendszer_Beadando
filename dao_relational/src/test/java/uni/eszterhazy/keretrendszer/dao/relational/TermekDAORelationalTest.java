@@ -22,7 +22,7 @@ public class TermekDAORelationalTest {
         termek.setAr(15000);
         termek.setKategoria(Kategoria.NAPPALI);
         termek.setGyartasinap(LocalDate.of(2018,11,04));
-        //dao.createTermek(termek);
+        dao.createTermek(termek);
         System.out.println(dao.readTermek(termek.getId()));
         System.out.println(dao.readAllTermekOfKategoria(Kategoria.NAPPALI));
     }

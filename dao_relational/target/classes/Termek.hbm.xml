@@ -1,5 +1,5 @@
 <hibernate-mapping xmlns="http://www.hibernate.org/xsd/hibernate-mapping">
-    <class name="uni.eszterhazy.keretrendszer.model.Termek" table="termeke">
+    <class name="uni.eszterhazy.keretrendszer.model.Termek" table="termek">
         <id name="id" type="string" column="id"/>
         <property name="nev" type="string" column="nev"/>
         <property name="gyartasinap" column="gyartasi_nap" type="LocalDate"/>
