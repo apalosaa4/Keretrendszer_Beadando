@@ -19,8 +19,7 @@ public class Proba {
         termek.setNev("Arany zokni");
         termek.setGyartasinap(LocalDate.of(2018,06,07));
         service.addTermek(termek);
-
+        System.out.println(service.getAllTermek());
         System.out.println(service.atlagar());
-
     }
 }

@@ -20,7 +20,7 @@ public class Termek {
 
     public Termek() {
         this.id= UUID.randomUUID().toString();
-        logger.info("Létre lett hozva egy új termék a/az "+this.id+ " azonosítóval");
+        logger.warn("Létre lett hozva egy új termék a/az "+this.id+ " azonosítóval");
     }
 
 

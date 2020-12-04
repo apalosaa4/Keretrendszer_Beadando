@@ -507,3 +507,118 @@ Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key
 2020-12-04 14:09:53, INFO, Létre lett hozva egy új termék a/az d03257f9-ce33-40df-bcf3-c137798152c4 azonosítóval
 2020-12-04 14:09:53, WARN, SQL Error: 1146, SQLState: 42S02
 2020-12-04 14:09:53, ERROR, Table 'termekek.termek' doesn't exist
+2020-12-04 14:21:23, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:21:23, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:21:24, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:21:24, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:21:24, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:21:24, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:21:24, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:21:24, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:21:25, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@724b939e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:21:25, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:21:25, INFO, Létre lett hozva egy új termék a/az c5ab8350-81b8-46bf-bc75-d0dbc298cddc azonosítóval
+2020-12-04 14:21:25, WARN, SQL Error: 1366, SQLState: HY000
+2020-12-04 14:21:25, ERROR, Incorrect integer value: 'c5ab8350-81b8-46bf-bc75-d0dbc298cddc' for column 'id' at row 1
+2020-12-04 14:23:58, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:23:58, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:23:59, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:23:59, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:23:59, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:23:59, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:23:59, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:23:59, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:24:00, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@724b939e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:24:00, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:24:00, INFO, Létre lett hozva egy új termék a/az e24b2437-7e3d-474c-830a-99e81af83aa2 azonosítóval
+2020-12-04 14:24:00, WARN, SQL Error: 1366, SQLState: HY000
+2020-12-04 14:24:00, ERROR, Incorrect integer value: 'e24b2437-7e3d-474c-830a-99e81af83aa2' for column 'id' at row 1
+2020-12-04 14:28:57, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:28:57, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:29:01, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:29:01, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:29:01, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:29:01, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:29:01, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:29:01, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:29:02, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@724b939e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:29:02, WARN, GenerationTarget encountered exception accepting command : Error executing DDL "create table termek (id varchar(255) not null, nev varchar(255), gyartasi_nap date, ar double precision, kategoria varchar(255), primary key (id)) engine=MyISAM" via JDBC Statement
+org.hibernate.tool.schema.spi.CommandAcceptanceException: Error executing DDL "create table termek (id varchar(255) not null, nev varchar(255), gyartasi_nap date, ar double precision, kategoria varchar(255), primary key (id)) engine=MyISAM" via JDBC Statement
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:67)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlString(AbstractSchemaMigrator.java:559)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.applySqlStrings(AbstractSchemaMigrator.java:504)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.createTable(AbstractSchemaMigrator.java:277)
+	at org.hibernate.tool.schema.internal.GroupedSchemaMigratorImpl.performTablesMigration(GroupedSchemaMigratorImpl.java:71)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.performMigration(AbstractSchemaMigrator.java:207)
+	at org.hibernate.tool.schema.internal.AbstractSchemaMigrator.doMigration(AbstractSchemaMigrator.java:114)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.performDatabaseAction(SchemaManagementToolCoordinator.java:184)
+	at org.hibernate.tool.schema.spi.SchemaManagementToolCoordinator.process(SchemaManagementToolCoordinator.java:73)
+	at org.hibernate.internal.SessionFactoryImpl.<init>(SessionFactoryImpl.java:316)
+	at org.hibernate.boot.internal.SessionFactoryBuilderImpl.build(SessionFactoryBuilderImpl.java:469)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:708)
+	at org.hibernate.cfg.Configuration.buildSessionFactory(Configuration.java:724)
+	at uni.eszterhazy.keretrendszer.dao.relational.TermekDAORelational.<init>(TermekDAORelational.java:20)
+	at uni.eszterhazy.keretrendszer.dao.relational.TermekDAORelationalTest.test(TermekDAORelationalTest.java:19)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:366)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:69)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:220)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:53)
+Caused by: java.sql.SQLSyntaxErrorException: Specified key was too long; max key length is 1000 bytes
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.StatementImpl.executeInternal(StatementImpl.java:764)
+	at com.mysql.cj.jdbc.StatementImpl.execute(StatementImpl.java:648)
+	at org.hibernate.tool.schema.internal.exec.GenerationTargetToDatabase.accept(GenerationTargetToDatabase.java:54)
+	... 39 more
+2020-12-04 14:29:02, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:29:02, INFO, Létre lett hozva egy új termék a/az cf9ae4e1-0191-4b8e-843e-86f4043d6261 azonosítóval
+2020-12-04 14:29:02, WARN, SQL Error: 1146, SQLState: 42S02
+2020-12-04 14:29:02, ERROR, Table 'termekek.termek' doesn't exist
+2020-12-04 14:30:24, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:30:24, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:30:25, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:30:25, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:30:25, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:30:25, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:30:25, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:30:25, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:30:26, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@724b939e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:30:26, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:30:26, INFO, Létre lett hozva egy új termék a/az b1abc68f-aa86-48f9-9d3f-949bd9371947 azonosítóval
+2020-12-04 14:30:26, WARN, SQL Error: 1366, SQLState: HY000
+2020-12-04 14:30:26, ERROR, Incorrect integer value: 'b1abc68f-aa86-48f9-9d3f-949bd9371947' for column 'id' at row 1
+2020-12-04 14:35:00, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:35:00, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:35:01, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:35:01, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:35:01, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:35:01, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:35:01, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:35:01, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:35:01, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@724b939e] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:35:01, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:35:01, INFO, Létre lett hozva egy új termék a/az 0b18e9db-930b-4aa3-94af-dbf256cfef4b azonosítóval
+2020-12-04 14:35:01, INFO, Létre lett hozva egy új termék a/az 13ea3d8a-26cb-4186-9715-29ed74067b70 azonosítóval
+2020-12-04 14:35:02, INFO, Létre lett hozva egy új termék a/az 492c7677-db19-4179-b4c1-08ccee48f840 azonosítóval

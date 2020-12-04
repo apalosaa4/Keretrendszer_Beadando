@@ -1,5 +1,6 @@
 package uni.eszterhazy.keretrendszer.service.impl;
 
+import org.apache.log4j.Logger;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
 import uni.eszterhazy.keretrendszer.model.Termek;
@@ -9,6 +10,8 @@ import java.util.Collection;
 import java.util.Map;
 
 public class TermekServiceImpl implements TermekService {
+
+    Logger logger = Logger.getLogger(this.getClass());
 
     private TermekDAO dao;
 
@@ -23,7 +26,9 @@ public class TermekServiceImpl implements TermekService {
 
     @Override
     public Collection<Termek> getAllTermek() {
-        return dao.readAllTermek();
+        Collection<Termek> result = dao.readAllTermek();
+        logger.info(result.size()+" darab termék van az adatbázisunkban.");
+        return result;
     }
 
     @Override
@@ -49,13 +54,6 @@ public class TermekServiceImpl implements TermekService {
     @Override
     public double atlagar() {
         Collection<Termek> termekek = getAllTermek();
-        /*
-        double sum=0;
-        for (Termek t : termekek){
-            sum += t.getAr();
-        }
-        return sum/ termekek.size();
-         */
         return termekek.stream().mapToDouble(t -> t.getAr()).average().getAsDouble();
     }
 

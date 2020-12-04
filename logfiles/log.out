@@ -37,3 +37,79 @@ The last packet sent successfully to the server was 0 milliseconds ago. The driv
 2020-12-03 19:14:20, ERROR, Communications link failure
 
 The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+2020-12-04 14:47:32, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:47:33, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:47:34, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:47:34, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:47:34, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:47:34, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:47:34, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:47:34, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:47:35, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:47:35, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:47:35, INFO, Létre lett hozva egy új termék a/az b7b917cc-72d7-4a78-a226-4831c25f667e azonosítóval
+2020-12-04 14:47:35, INFO, Létre lett hozva egy új termék a/az e8fba76d-552e-4ebc-ae2c-c0db6e27de0e azonosítóval
+2020-12-04 14:47:35, INFO, Létre lett hozva egy új termék a/az d7bac056-4a1c-4bd2-82a6-04b1ddefc0a8 azonosítóval
+2020-12-04 14:54:00, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 14:54:01, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 14:54:01, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 14:54:01, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 14:54:01, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 14:54:01, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 14:54:01, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 14:54:01, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 14:54:02, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 14:54:02, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az be9a849a-4176-4dea-92e1-39b17e0ed757 azonosítóval
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az a6523ed0-3e82-4018-b51e-75b37a125ef2 azonosítóval
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az a9293305-023d-49e6-9da0-4cd35500e97d azonosítóval
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az 1b689e76-7c97-44c5-990d-9b0c022eba7f azonosítóval
+2020-12-04 14:54:02, INFO, 3 darab termék van az adatbázisunkban.
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az c87d8d57-72fe-4a34-bb5c-a4ac01b1aeed azonosítóval
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az 2ce9c05c-8002-41cf-8963-3d92c1c4a484 azonosítóval
+2020-12-04 14:54:02, INFO, Létre lett hozva egy új termék a/az e217219c-e1af-49ff-9b36-81bc50c2b43e azonosítóval
+2020-12-04 14:54:02, INFO, 3 darab termék van az adatbázisunkban.
+2020-12-04 15:05:04, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 15:05:04, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 15:05:05, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 15:05:05, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 15:05:05, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 15:05:05, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 15:05:05, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 15:05:05, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 15:05:06, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 15:05:06, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az aa8001ce-1de2-4669-986a-178ab970c8e9 azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az c14ee327-ff19-444a-be40-2f35f9547b9b azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az aa6edafb-229b-4da7-84e2-3d15407443ab azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az e12e7b76-c032-4c27-8f05-0998536a19a7 azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az d087c5d0-0381-455d-8cbd-309b547ca9de azonosítóval
+2020-12-04 15:05:06, INFO, 4 darab termék van az adatbázisunkban.
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az 2d254e48-d5ee-41fc-bb54-b05adbf4cd5e azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az f673ee80-b7ff-4ac7-9948-7e68f1dd4106 azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az 0081830d-aad5-4137-a6d7-8b588d4aedbc azonosítóval
+2020-12-04 15:05:06, WARN, Létre lett hozva egy új termék a/az e8e192f1-0645-4a18-b4fa-5029aed1982d azonosítóval
+2020-12-04 15:05:06, INFO, 4 darab termék van az adatbázisunkban.
+2020-12-04 15:16:05, INFO, HHH000412: Hibernate ORM core version 5.4.21.Final
+2020-12-04 15:16:06, INFO, HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-12-04 15:16:06, WARN, HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-12-04 15:16:06, INFO, HHH10001005: using driver [com.mysql.cj.jdbc.Driver] at URL [jdbc:mysql://localhost:3308/termekek?severTimezone=UTC]
+2020-12-04 15:16:06, INFO, HHH10001001: Connection properties: {password=****, user=root}
+2020-12-04 15:16:06, INFO, HHH10001003: Autocommit mode: false
+2020-12-04 15:16:06, INFO, HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-12-04 15:16:06, INFO, HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-12-04 15:16:07, INFO, HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@404db674] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-12-04 15:16:07, INFO, HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 1a4a3825-e92b-49b6-b5a1-55e5f31ac2bc azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 86dcde79-c2f7-4f71-9355-6b8c159ba52d azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 1d11e4c1-0b01-4347-b52e-5b3d81d110e7 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 188fe4d2-682a-409d-ace5-d0a51dac7f99 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 900d071f-e84c-4d71-bdf4-00750a4d06e2 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az b560553d-62e5-4e8e-a956-563ff9e3f57a azonosítóval
+2020-12-04 15:16:07, INFO, 5 darab termék van az adatbázisunkban.
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 01ef60ac-0b15-4bd3-a425-fea0ea913646 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az a5365170-8c00-42e9-8267-37a38a34f8f8 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az a2029257-3821-455c-981c-8912206fa203 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 923f0458-f00c-4190-a2df-30ffdbcae3f0 azonosítóval
+2020-12-04 15:16:07, WARN, Létre lett hozva egy új termék a/az 6f3ce82f-87e5-4ce7-983b-6f5b814ec925 azonosítóval
+2020-12-04 15:16:07, INFO, 5 darab termék van az adatbázisunkban.
