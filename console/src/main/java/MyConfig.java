@@ -1,6 +1,7 @@
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
+import uni.eszeterhazy.keretrendszer.dao.json.TermekDAOJSON;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
 import uni.eszterhazy.keretrendszer.dao.mongo.TermekDAOMongo;
 import uni.eszterhazy.keretrendszer.service.TermekService;
@@ -16,26 +17,26 @@ public class MyConfig {
     @Bean(name="mongoDBDAO")
     public TermekDAO mongodb(){
         try {
-            return new TermekDAOMongo("mongodb://localhost:3308", "termekek","termek");
+            return new TermekDAOMongo("mongodb://localhost:27017", "termekek","termek");
         } catch (UnknownHostException e) {
             e.printStackTrace();
         }
         return null;
     }
 
-    /*@Qualifier("jsonDBDAO")
+    @Qualifier("jsonDBDAO")
     @Bean
-    public TermekDAOMongo jsondb(){
+    public TermekDAO jsondb(){
         try {
-            return new TermekDAOMongo("Termek.json");
+            return new TermekDAOJSON("Termek.json");
         } catch (IOException e) {
             e.printStackTrace();
         }
         return null;
-    }*/
+    }
 
     @Bean
-    public TermekService dolgozoService(TermekDAO mongoDBDAO){
+    public TermekService termekService(TermekDAO mongoDBDAO){
         return new TermekServiceImpl(mongoDBDAO);
     }
 }

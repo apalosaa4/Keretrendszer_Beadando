@@ -15,7 +15,7 @@ import java.time.LocalDate;
 public class Proba {
     public static void main(String[] args) throws ArNegativ, NevNemUres, RosszGyartasiNap, IOException {
         //TermekDAO dao = new TermekDAOJSON("termekadatok.json");
-        TermekDAO dao = new TermekDAOMongo("mongodb://localhost:27018", "termekek","termek");
+        TermekDAO dao = new TermekDAOMongo("mongodb://localhost:27017", "termekek","termek");
         TermekService service = new TermekServiceImpl(dao);
 
         Termek termek = new Termek();
