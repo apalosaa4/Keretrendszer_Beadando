@@ -1,7 +1,5 @@
 import org.springframework.context.ApplicationContext;
-import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import uni.eszterhazy.keretrendszer.dao.TermekDAO;
 import uni.eszterhazy.keretrendszer.service.TermekService;
 
 public class MyApp {

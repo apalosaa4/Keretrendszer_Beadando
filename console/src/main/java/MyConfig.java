@@ -1,5 +1,6 @@
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import uni.eszeterhazy.keretrendszer.dao.json.TermekDAOJSON;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
@@ -11,6 +12,7 @@ import java.io.IOException;
 import java.net.UnknownHostException;
 
 @Configuration
+@ComponentScan({"uni.eszterhazy.keretrendszer.controller"})
 
 public class MyConfig {
 

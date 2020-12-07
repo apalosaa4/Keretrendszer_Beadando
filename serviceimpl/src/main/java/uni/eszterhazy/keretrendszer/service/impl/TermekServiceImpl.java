@@ -10,6 +10,7 @@ import uni.eszterhazy.keretrendszer.service.TermekService;
 import java.util.Collection;
 import java.util.Map;
 
+
 public class TermekServiceImpl implements TermekService {
 
     Logger logger = Logger.getLogger(this.getClass());
