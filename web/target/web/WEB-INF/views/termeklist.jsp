@@ -37,5 +37,9 @@
 <c:if test="${empty termekek}">
 <c:out value="Nincs egy termék sem :("/>
 </c:if>
+
+<form action="${pageContext.servletContext.contextPath}/addTermek">
+    <input type="submit" value="Termék hozzáadása">
+</form>
 </body>
 </html>

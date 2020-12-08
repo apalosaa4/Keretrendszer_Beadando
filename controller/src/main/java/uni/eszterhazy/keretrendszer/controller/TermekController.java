@@ -7,7 +7,9 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.ModelAndView;
+import uni.eszterhazy.keretrendszer.exception.TermekAlreadyAdded;
 import uni.eszterhazy.keretrendszer.exception.TermekNotFound;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
 import uni.eszterhazy.keretrendszer.model.Termek;
@@ -43,5 +45,17 @@ public class TermekController {
     public String addTermekForm(Model model){
         model.addAttribute("kategoriak", Kategoria.values());
         return "termekForm.jsp";
+    }
+
+    @PostMapping(value = "addTermek")
+    public String addTermek(@ModelAttribute("termek") Termek termek, Model model){
+        System.out.println(termek);
+        try {
+            service.addTermek(termek);
+        }
+        catch (TermekAlreadyAdded termekAlreadyAdded) {
+            termekAlreadyAdded.printStackTrace();
+        }
+        return "redirect:termek/"+termek.getId();
     }
 }

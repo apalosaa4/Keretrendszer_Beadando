@@ -1,6 +1,7 @@
 package uni.eszterhazy.keretrendszer.model;
 
 import org.apache.log4j.Logger;
+import org.springframework.format.annotation.DateTimeFormat;
 import uni.eszterhazy.keretrendszer.exception.ArNegativ;
 import uni.eszterhazy.keretrendszer.exception.NevNemUres;
 import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
@@ -11,8 +12,9 @@ import java.util.UUID;
 public class Termek {
     private String nev;
     private String id;
-    private double ar;
+    @DateTimeFormat(iso = DateTimeFormat.ISO.DATE)
     private LocalDate gyartasinap;
+    private double ar;
     private Kategoria kategoria;
 
     Logger logger = Logger.getLogger(this.getClass());
@@ -57,7 +59,7 @@ public class Termek {
     public LocalDate getGyartasinap() {
         return gyartasinap;
     }
-    public void setGyartasinap(LocalDate gyartasinap) throws RosszGyartasiNap {
+    public void setGyartasinap(@DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate gyartasinap) throws RosszGyartasiNap {
         if(gyartasinap.isAfter(LocalDate.now())){
             throw new RosszGyartasiNap("A gyártási nap dátuma nem megfelelő " +gyartasinap);
         }
