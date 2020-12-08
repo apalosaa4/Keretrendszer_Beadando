@@ -9,7 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class DummyController {
 
     @GetMapping("/hello")
-    public void hello(){
+    public String hello(){
         System.out.println("Helloka");
+        return "hello.jsp";
     }
 }
