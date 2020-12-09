@@ -1,8 +1,11 @@
 package uni.eszterhazy.keretrendszer.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.server.ResponseStatusException;
+import uni.eszterhazy.keretrendszer.exception.RosszGyartasiNap;
 import uni.eszterhazy.keretrendszer.exception.TermekAlreadyAdded;
 import uni.eszterhazy.keretrendszer.exception.TermekNotFound;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
@@ -24,27 +27,23 @@ public class RESTTermekController {
         return termekService.getTermekById(id);
     }
 
-    @GetMapping(value="termekek")
-    public Collection<Termek> getAllTermekofKategoria(@RequestParam(value = "kategoria", required = false) Kategoria kategoria, @RequestParam(value = "minimumar", required = false) Integer ar){
-        int arErtek;
-        if(ar == null){
-            arErtek = 0;
-        }
-        else{
-            arErtek = ar.intValue();
-        }
-        if (kategoria != null && arErtek == 0){
-            return termekService.readAllTermekOfKategoria(kategoria);
-        }
-        if (kategoria != null && arErtek > 0){
-            return termekService.readAllTermekOfKategoria(kategoria).stream().filter(d -> d.getAr()> ar).collect(Collectors.toList());
-        }
-        if (kategoria == null && arErtek > 0){
-            return termekService.getAllTermek().stream().filter(d -> d.getAr() > ar).collect(Collectors.toList());
-        }
-        return termekService.getAllTermek();
+    @ExceptionHandler(TermekAlreadyAdded.class)
+    @ResponseStatus(HttpStatus.IM_USED)
+    public String usedTermekId(TermekAlreadyAdded e){
+        return "Egy termék az adott azonosítóval már létezik: "+e.getMessage();
     }
 
+    @ExceptionHandler(RosszGyartasiNap.class)
+    public String badrequest(RosszGyartasiNap e) {
+        return e.getMessage();
+    }
+
+    @GetMapping(value = "termekek")
+    public Collection<Termek> getAllTermekOfKategoria(@RequestParam(value = "kategoria", required = false) Kategoria kategoria, @RequestParam(value = "minimumar", required = false) Integer ar){
+        Collection<Termek> arszerint= ar !=null? termekService.getAllTermekWithMinimumWage(ar.intValue()): termekService.getAllTermek();
+        Collection<Termek> kategoriaszerint = kategoria !=null? termekService.readAllTermekOfKategoria(kategoria): termekService.getAllTermek();
+        return arszerint.stream().filter(d -> kategoriaszerint.contains(d)).collect(Collectors.toList());
+    }
 
     @PostMapping(value = "termekek", consumes = MediaType.APPLICATION_JSON_VALUE, produces = "application/json;charset=utf-8")
     public String addTermek(@RequestBody Termek termek) throws TermekAlreadyAdded {

@@ -61,7 +61,7 @@ public class Termek {
     }
     public void setGyartasinap(@DateTimeFormat(iso = DateTimeFormat.ISO.DATE) LocalDate gyartasinap) throws RosszGyartasiNap {
         if(gyartasinap.isAfter(LocalDate.now())){
-            throw new RosszGyartasiNap("A gyártási nap dátuma nem megfelelő " +gyartasinap);
+            throw new RosszGyartasiNap("A gyártási nap dátuma nem megfelelő " + gyartasinap);
         }
         this.gyartasinap = gyartasinap;
     }

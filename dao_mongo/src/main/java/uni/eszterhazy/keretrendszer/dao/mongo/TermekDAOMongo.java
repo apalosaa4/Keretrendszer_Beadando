@@ -1,16 +1,12 @@
 package uni.eszterhazy.keretrendszer.dao.mongo;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import com.mongodb.*;
-import com.mongodb.util.JSON;
 import uni.eszterhazy.keretrendszer.dao.TermekDAO;
 import uni.eszterhazy.keretrendszer.exception.TermekAlreadyAdded;
 import uni.eszterhazy.keretrendszer.exception.TermekNotFound;
 import uni.eszterhazy.keretrendszer.model.Termek;
 import uni.eszterhazy.keretrendszer.model.Kategoria;
 
-import java.io.IOException;
 import java.net.UnknownHostException;
 import java.util.ArrayList;
 import java.util.Collection;
